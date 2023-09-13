@@ -71,8 +71,12 @@ def get_average_heat_level(spicy_foods):
 
 def create_spicy_food(spicy_foods, spicy_food):
     pass
-    # new_list = spicy_foods[:]
+
+    # Non-destructive method
+    # new_list = spicy_foods[:] --> makes a copy of spicy_foods list
     # new_list.append(spicy_food)
     # return new_list
+    
+    # Destructive method
     spicy_foods.append(spicy_food)
     return spicy_foods
